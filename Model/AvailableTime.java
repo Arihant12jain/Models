@@ -14,7 +14,6 @@ public class AvailableTime {
 private LocalDateTime startTime;
 private LocalDateTime endTime;
 
-@ManyToOne
-private Clinic doctor;
+
 
 }
