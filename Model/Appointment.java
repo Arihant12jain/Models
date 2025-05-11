@@ -14,9 +14,7 @@ public class Appointment {
     @JoinColumn(name = "doctor_id", referencedColumnName = "id")
     private User doctor;
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "patient_id", referencedColumnName = "id")
-    private User patient;
+
 
 
     private LocalDateTime startTime;
